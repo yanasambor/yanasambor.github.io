@@ -1,0 +1,102 @@
+html {
+
+    font-size: 18px;
+}
+
+body {
+    margin: 0;
+}
+
+main {
+    border-left: 45px solid #d92226;
+    border-right: 45px solid #026a9d;
+    background: url(https://images.unsplash.com/photo-1568232745499-e65f1dd5276b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 30vw;
+    height: 100vh;
+    margin: auto;
+    padding: 0 1rem;
+    text-align: center;
+    line-height: 1.2;
+    letter-spacing: 1px ;
+}
+
+div {     
+    padding-bottom: 1.875rem;
+    padding-top: 0rem;
+    margin: auto;
+    text-shadow: 1px 1px 2px gray;
+    
+}
+
+h1 {
+    padding-bottom: 1.875rem;
+    padding-top: 2rem;
+    color: #d86364;
+    font-family: 'Alfa Slab One', cursive;
+    margin-top: 0;
+    text-shadow: 1px 1px 3px black
+
+}
+
+.carter-one {
+    color: #ffffff;
+    font-family: 'Carter One', cursive;  
+
+}
+
+.cairo {
+    font-family: 'Cairo', sans-serif;
+    color: #ffffff;
+
+}
+
+.oswald {
+    font-family: 'Oswald', sans-serif;
+    color: #ffffff;
+    font-size: small;
+    font-weight: 600;
+}
+
+.mali {
+    font-family: 'Mali', cursive;
+    text-shadow: 1px 1px 4px #da764a;
+    color: #da764a;
+}
+
+.cookie {
+
+    font-family: 'Cookie', cursive;
+    color: #ffffff;
+    font-size: 2rem;
+
+}
+
+.caveat {
+
+    font-family: 'Caveat', cursive;
+    color: black;
+    background-color: white;
+    transform: rotate(-5deg);
+    text-align: center;
+    margin: 5px 40px 0rem 40px;
+    padding: 0.625rem;
+    font-weight: 600;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px gray;
+    
+}
+
+.dm-mono {
+
+    font-family: 'DM Mono', monospace;
+    color: white;
+    margin-left: 11.25rem;
+    margin-top: 2.5rem;
+}
+
+.family {
+    color: red;
+
+}

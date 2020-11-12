@@ -1,0 +1,135 @@
+body {
+
+    margin: 0;
+    margin-bottom: 5px;
+    font-family: Roboto;
+    font-size: 18px;
+}
+
+* {
+
+    box-sizing: border-box;
+}
+
+.container {
+
+    width: 70vw;
+    margin: auto;
+}
+
+.flex-box {
+
+    display: flex;
+    flex-direction: column;
+}
+
+.product-container {
+
+    display: flex;
+    flex-direction: row;
+    border: 1px solid gray;
+}
+
+.price {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+
+}
+
+.description {
+
+    flex-grow: 1;
+}
+
+.photo {
+
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+
+    width: 65%;
+    transition: 1s;
+}
+
+.product-container:hover img {
+    width: 85%
+
+}
+
+.product-container:hover span:last-child {
+    opacity: 1;
+}
+
+.product-container:hover .buy {
+    opacity: 1;
+}
+
+.questions {
+
+    display: flex;
+    margin: 8px 0;
+
+}
+span:first-child {
+    margin-right:auto;
+
+}
+span:last-child {
+
+    margin-right: 25px;
+    transition: 1s;
+    opacity: 0;
+}
+
+p:first-child {
+
+    color: orange;
+    font-weight: 500;
+}
+
+.price>p {
+    margin: 9px;
+}
+
+.add-to-cart {
+
+    background: orange;
+}
+
+.buy {
+
+    background: green;
+    transition: 1s;
+    opacity: 0;
+}
+
+button {
+
+    color: white;
+    padding: 3px 15px;
+    width: 100%;
+    border: none;
+    font-family: Roboto;
+    font-size: 18px;
+}
+
+.fa-heart {
+    color: red;
+}
+
+h2 {
+
+    margin-top: 15px;
+    font-size: 18px;
+}

@@ -1,0 +1,109 @@
+html {
+    font-size: 16px;
+
+}
+
+body {
+
+    margin: 0;
+}
+
+.general {
+
+    width: 70vw;
+    margin: auto;
+    display: flex;
+    background: rgb(240, 235, 235);
+}
+
+.cover,
+.about-me,
+.introduce {
+
+    background: white;
+    box-shadow: 1px 1px 4px gray;
+}
+
+
+.about-me {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    width: 40%;
+    margin: 0.5rem;
+}
+
+h4,
+.about-me p {
+
+    text-align: center;
+    padding: 0.5rem;
+}
+.information-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.numbers {
+    display: flex;
+    margin: 0.5rem;
+
+}
+
+img {
+
+    width: 200px;
+    height: 200px;
+    box-shadow: 0px 0px 5px grey;
+    border: 4px solid white;
+    margin: auto;
+    border-radius: 1000px;
+    background-size: cover;
+    background-position: center;
+}
+
+.cover {
+
+    width: calc(100%/3);
+    margin: 0 0.5rem 0.5rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+.contributions,
+.followers,
+.repositories {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+span:first-child {
+
+    color: rgb(47, 112, 41);
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.introduce {
+
+    flex-grow: 1;
+    margin: 0.5rem;
+}
+
+.introduce p {
+
+    text-align: justify;
+    padding: 1rem 2rem;
+}
+
+p,
+span {
+
+    color: gray;
+}
+
+

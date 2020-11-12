@@ -1,0 +1,99 @@
+body {
+
+    margin: 0;
+
+}
+
+main {
+
+    width: 30vw;
+    border: 1px solid rgb(218, 217, 217);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    margin: auto;
+
+}
+
+.item {
+
+    width: 96%;
+    display: block;
+    margin: 5px auto;
+
+}
+.cover {
+
+    margin-left: 15px;
+}
+
+h3 {
+
+    text-align: left;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+}
+
+.price {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+span:first-child {
+
+    color: green;
+    margin-right: 2px;
+}
+
+span+span {
+    color: gray;
+    text-decoration: line-through;
+    margin-right: 2px;
+}
+
+span:last-child {
+
+    color:red;
+    text-decoration: none
+}
+
+.buttons {
+
+    margin: 10px 0px;
+}
+
+button:first-child {
+
+    background: gray;
+    color: white;
+    margin-right: 2px;
+    border-radius: 5px;
+}
+
+.rating_block {
+  
+    width: 125px;
+    height: 25px;
+    padding: 0px;
+    margin: 10px 0;
+
+  }
+  .rating_block input[type="radio"] {
+    display: none;
+  }
+  .label_rating {
+    float: right;
+    display: block;
+    width: 25px;
+    height: 25px;
+    background: url(https://simplamarket.com/files/uploads/rating.png) no-repeat 50% 0;
+    cursor: pointer;
+  }
+  /*Пишем правила смены положения background-а*/
+  .rating_block .label_rating:hover, /*Правило для ховера на текущий лейбл*/
+  .rating_block .label_rating:hover ~ .label_rating, /*Правило для всех следующих лейблов по DOM дереву*/
+  .rating_block input[type="radio"]:checked ~ .label_rating /*Правило для всех следующих лейблов после выбранного инпута, чтобы звездочки как бы зафиксировались*/
+  {
+    background-position: 50% -25px;
+  }
+  

@@ -1,0 +1,96 @@
+body {
+
+    margin: 5px;
+    text-align:justify;
+
+}
+
+h1 {
+    color: green;
+
+}
+
+span:first-child {
+
+    color: red;
+
+}
+
+div >span+span {
+
+    background: yellow;
+
+}
+
+.special {
+
+    color: orange;
+}
+
+
+div>span:last-child {
+
+color: green;
+
+}
+
+a+a {
+    color: green;
+}
+
+a[title~=Поисковик] {
+    color: red;
+}
+
+b {
+
+    color: indigo;
+}
+
+b+span {
+
+    color: rgb(78, 196, 243);
+}
+b+span+span {
+
+    color: green;
+}
+
+ul>li:nth-child(odd) {
+    color: red;
+}
+
+ul>li:nth-child(even) {
+
+    background-color: yellow;
+}
+
+ul>li:last-child {
+
+    color: indigo;
+}
+
+p+div+div {
+
+    color: rgb(223, 37, 68);
+}
+
+ol>li:nth-child(odd) {
+
+    color: blue;
+}
+
+ol>li:nth-child(even) {
+
+    color: green;
+}
+
+ol>li:nth-child(4) {
+
+    background: grey;
+}
+
+ol>li:last-child {
+
+    color: orange;
+}
