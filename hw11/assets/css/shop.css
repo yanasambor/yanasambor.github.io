@@ -97,14 +97,6 @@
     margin-bottom: 100px ;
 }
 
-
-
-header>div img {
-
-    height: 100px;
-
-}
-
 .contact-us {
 
     border-left: 1px solid #dee2e6;
@@ -176,12 +168,6 @@ header>div img {
         width: 100%;
         padding: 5px;
 
-    }
-
-    header>div img {
-
-        width:100%;
-        object-fit:cover;
     }
 
     .product {
