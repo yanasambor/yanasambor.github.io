@@ -1,0 +1,212 @@
+.clothes {
+    grid-area: clothes;
+}
+
+.bags {
+    grid-area: bag;
+}
+
+.shoes {
+    grid-area: shoes;
+}
+
+.dresses {
+    grid-area: dresses;
+}
+
+.information {
+    grid-area: information;
+}
+
+.customer-service {
+    grid-area: customer-service;
+}
+
+.extras {
+    grid-area: extras;
+}
+
+.my-acount {
+    grid-area: my-acount;
+}
+
+.copyright {
+    grid-area: copyright;
+}
+
+.banners .navbar {
+
+    grid-area: navbar;
+}
+
+.contact-us {
+    grid-area: contact-us;
+}
+
+.gridbox {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: "navbar navbar navbar"
+                    "clothes    clothes    clothes"
+                         "bag   shoes  dresses";
+}
+
+.items-grid {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 15px;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr auto;
+    grid-gap: 10px;
+    grid-template-areas: "information    customer-service    extras     my-acount"
+                         "copyright     copyright           copyright    copyright";
+
+}
+
+.contact-us-grid {
+
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    grid-template-rows: 1fr;
+    grid-template-areas: ". contact-us .";
+}
+
+.items img {
+    height: 450px ;
+    object-fit: cover;
+}
+
+.product {
+
+    margin-top: 50px;
+    padding-left: 0;
+    padding-right: 0;
+    box-shadow: 0 0 4px gray;
+    text-align: center;
+}
+
+.navbar {
+    margin-bottom: 100px ;
+}
+
+
+
+header>div img {
+
+    height: 100px;
+
+}
+
+.contact-us {
+
+    border-left: 1px solid #dee2e6;
+    border-right: 1px solid #dee2e6;
+    margin: 20px 0;
+}
+
+.banners {
+
+    text-shadow: 2px 5px 20px black;
+}
+
+.shoes,
+.bags  {
+
+    margin-right: 15px;
+}
+
+
+@media (max-width: 576px)  
+{
+
+    .gridbox {
+
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto auto auto;
+        grid-template-areas: "navbar"
+                            "clothes"
+                             "bag"   
+                             "shoes"  
+                             "dresses";
+    }
+
+    .items-grid {
+
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    
+    .footer-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 10px;
+        grid-template-areas: "information"    
+                              "customer-service"
+                              "extras"     
+                              "my-acount"
+                               "copyright";
+    }
+
+    .contact-us-grid {
+
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: "contact-us";
+        }
+
+    .clothes,
+    .shoes,
+    .bags,
+    .dresses
+     {
+         margin-right: 0;
+    }
+
+    .items img {
+        width: 100%;
+        padding: 5px;
+
+    }
+
+    header>div img {
+
+        width:100%;
+        object-fit:cover;
+    }
+
+    .product {
+
+        margin-top: 10px;
+    }
+
+    .clothes>img {
+
+        object-fit: cover;
+    }
+
+    header>div img {
+
+        width: 40%;
+    }
+    
+
+}
+
+@media (max-width: 992px)  {
+
+    .card-title,
+    .card-text {
+
+        font-size: 10px;
+    }
+}
