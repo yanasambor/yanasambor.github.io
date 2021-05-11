@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Number</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="./assets/js/main.js"></script>
+</head>
+<body>
+    <div class="container mt-5 shadow">
+        <h1 class="pt-2">Угадай число от 1 до 100</h1>
+        <p>Осталось попыток <output id="counterPlace">10</output> </p>
+        <div class="form-group">
+            <label for="numberInput">Ваше число</label>
+            <input type="number" class="form-control mb-2" id="numberInput" min="1" max="100" value="1">
+        </div>
+
+        <button onclick="calc()" type="button" class="btn btn-warning w-100">Проверить число</button>
+
+        <p>
+          <output id="conclusionPlace">-</output></p>
+    </div>
+    
+</body>
+</html>
